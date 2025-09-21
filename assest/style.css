@@ -1,0 +1,74 @@
+/* assets/style.css */
+
+/* page background + container */
+body {
+  background: linear-gradient(180deg, #fff 0%, #f7f9fc 100%);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 28px auto;
+  padding: 18px;
+  box-shadow: 0 6px 22px rgba(29, 40, 54, 0.06);
+  border-radius: 12px;
+  background: #fff;
+}
+
+/* header */
+.header {
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eef3f7;
+  margin-bottom: 18px;
+}
+.title {
+  margin: 6px 0 4px 0;
+  font-size: 28px;
+  letter-spacing: -0.3px;
+  color: #0f1724;
+}
+.subtitle {
+  margin: 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+/* controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 8px;
+  flex-wrap: wrap;
+}
+.controls-label {
+  font-weight: 600;
+  color: #374151;
+  min-width: 110px;
+}
+.radio-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* style for radio items (labels) */
+.radio-group .dash-radio-item {
+  background: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.radio-group .dash-radio-item label {
+  cursor: pointer;
+}
+
+/* chart container tweak */
+.chart {
+  padding-top: 12px;
+}
